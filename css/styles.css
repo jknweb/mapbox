@@ -448,5 +448,30 @@ section p{
         letter-spacing: 1px;
         transition: all .15s;
     }
-
+footer {
+        display: flex;
+        justify-content : space-between;
+        margin : 50px 50px;
+    }
+    .footer-items{
+        margin : 20px 10px;
+        color :rgb(218, 216, 216);
+    }
+    .footer-items ul li a{
+        line-height: 2rem;
+        color :rgb(218, 216, 216);
+        text-decoration: none;
+    }
+    .footer-items ul li a:hover{
+        color : #007afc;
+    }
+    .footer-items ul li{
+    list-style-type: none;
+    }
+    .footer-items p{
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        color :rgb(255, 255, 255);
+        margin-bottom : 10px;
+    }
 
